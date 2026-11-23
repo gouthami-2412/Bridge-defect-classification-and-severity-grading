@@ -106,7 +106,7 @@ python tests/test_severity.py
 and place both in a folder named `weights/` next to `app.py`, then run:
 
 ```bash
-python app.py            # add --share for a temporary public link
+python app.py            
 ```
 
 Colours in the output: crack red, spalling green, rust blue, efflorescence yellow, cavity magenta, exposed rebars cyan.
