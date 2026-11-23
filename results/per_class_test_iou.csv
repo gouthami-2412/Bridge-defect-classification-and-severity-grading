@@ -1,0 +1,8 @@
+class,unet,fpn,deeplabv3plus,ensemble
+Crack,0.241,0.249,0.241,0.260
+Spalling,0.359,0.374,0.375,0.395
+Rust,0.396,0.370,0.389,0.402
+Efflorescence,0.287,0.312,0.285,0.319
+Cavity,0.139,0.147,0.177,0.169
+ExposedRebars,0.377,0.381,0.338,0.373
+Mean,0.300,0.306,0.301,0.320

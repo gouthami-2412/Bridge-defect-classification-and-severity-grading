@@ -1,0 +1,5 @@
+model,val_miou_tuned,test_miou_tuned,minutes_per_epoch
+U-Net ResNet34 (baseline),0.326,0.300,3.5
+FPN ResNet34,0.339,0.306,3.2
+DeepLabV3+ ResNet34,0.333,0.301,3.1
+Ensemble (FPN + DeepLabV3+ + flip),0.355,0.320,

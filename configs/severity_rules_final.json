@@ -1,0 +1,13 @@
+{
+  "FLOOR_FRAC": 0.25,
+  "BUMP_W": 6,
+  "AREA_CUTS": {
+    "Spalling": [0.01, 0.05],
+    "Rust": [0.02, 0.08],
+    "Efflorescence": [0.03, 0.1],
+    "Cavity": [0.005, 0.02],
+    "ExposedRebars": [0.002, 0.01]
+  },
+  "MIN_PX": {"Crack": 20, "Spalling": 150, "Rust": 150, "Efflorescence": 150, "Cavity": 15, "ExposedRebars": 60},
+  "CRACK_LENGTH_CUTS": [0.3, 1.0]
+}

@@ -1,0 +1,12 @@
+numpy
+pandas
+opencv-python-headless
+scikit-image
+scikit-learn
+matplotlib
+seaborn
+torch
+segmentation-models-pytorch
+albumentations
+gradio
+krippendorff
