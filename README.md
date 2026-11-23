@@ -37,7 +37,7 @@ Segmentation, on the official dacl10k validation split used as our test set (975
 The differences between single models are small and may be within noise. Cavity is the weakest class (IoU 0.169).
 More tables are in [`results/`](results/).
 
-![Per-class IoU](figures/per_class_test_iou_final.png)
+![Per-class IoU](figures/test_iou_per_class.png)
 
 Severity grading against human ratings, on 200 held-out images rated by two team members:
 
@@ -51,7 +51,7 @@ Severity grading against human ratings, on 200 held-out images rated by two team
 Agreement between human raters was 0.88 on this set, so the grader is clearly below human level. A learned
 grader trained on 120 development images was not reliably better (kappa 0.505), so the simple rules were kept.
 
-![Severity confusion matrix](figures/severity_confusion_final.png)
+![Severity confusion matrix](figures/severity_human_vs_model.png)
 
 ## Method
 
